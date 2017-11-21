@@ -1,4 +1,5 @@
 it's just SVG in HTML. Moscow subway.
+with drag & zoom.
 Added css & js for better understanding that SVG working as HTML.
 
 

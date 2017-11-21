@@ -1,0 +1,36 @@
+.map__viewport{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    cursor: -webkit-grab;
+}
+
+.map__viewport__in{
+    position: absolute;
+    width: 940px;
+    height: 1100px;
+}
+
+.map__layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.map__layer.map__layer__bg{
+    background: url(http://big.filmsa.ru/new_map.svg) center center no-repeat;
+}
+
+.map__layer g{
+    cursor: pointer;
+}
+
+.map__layer g:hover{
+    fill: green;
+}
